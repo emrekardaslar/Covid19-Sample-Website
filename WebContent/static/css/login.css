@@ -1,0 +1,92 @@
+body
+{
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../img/login-background.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.login-form
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 450px;
+	padding: 60px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.65);
+	border-radius: 25px;
+	margin-top: 40px;
+}
+
+.login-form h2
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.login-form p
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 14px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"]
+{
+	border: none;
+	border-radius: 0px;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 14px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.login-form input[type="submit"]
+{
+	height: 30px;
+	color: #fff;
+	font-size: 14px;
+	background: rgb(51,122,183);
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	margin-top: 35px;
+	width: 100%;
+}
+
+.login-form a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 35px;
+	text-decoration: underline;
+}
+
+.avatar
+{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	top: calc(-40px);
+	left: calc(50% - 40px);
+}

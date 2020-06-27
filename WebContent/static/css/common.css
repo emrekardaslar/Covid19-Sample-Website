@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.alert {
+	position: fixed;
+	top: 1%;
+	left:50%;
+	transform: translate(-50%,-1%);
+	z-index: 10000;
+}
+
+.panel-heading {
+	margin: 15px 0 15px 10px;
+}
+
+.panel-title {
+	font-size: 25px; 
+	font-weight: bold;
+}
+
+.panel-actions {
+	margin-right: 15px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+   -webkit-appearance: searchfield-cancel-button;
+}
+
+.covid-form {
+	max-width: 30% ; 
+	margin-top: 25px; 
+	padding: 10px 10px 20px 10px;
+}
