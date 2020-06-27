@@ -13,9 +13,9 @@ Needed packages are in WebContent/WEB-INF/lib
 
 Follow the steps below to setup the web application.
 
-Install Eclipse EE 2020-03 (Community Edition cannot open a Dynamic Web Project)\
-Install Apache Tomcat Server 8.5\
-Install Oracle RDBMS 19c\
+Install Eclipse EE 2020-03 (Community Edition cannot open a Dynamic Web Project)
+Install Apache Tomcat Server 8.5
+Install Oracle RDBMS 19c
 
 After installing Oracle Database, look at the directory below:
 <ORACLE-HOME>\network\admin\tnsnames.ora
@@ -33,7 +33,7 @@ ORCL =
   )
 
 
-CONTINUE HERE IF YOU HAVE ORACLE INSTALLED \
+CONTINUE HERE IF YOU HAVE ORACLE INSTALLED 
 If the Oracle setup is complete, initialize the tables since we need to login. We will be able to create, drop and reset tables from the web application later.
 Extract the zip file and run the covid19.sql script from cmd
 
@@ -41,11 +41,11 @@ Loading initial database schema and initial data......
 open command prompt:
 cmd
 
--cd c:\users\User\Desktop (change directory to the covid19.sql)\
+-cd c:\users\User\Desktop (change directory to the covid19.sql)
 
--sqlplus emre/emre@orcl @covid19.sql (run this command from command prompt to run the script, also change the command as username/password@orcl @covid19.sql)\
+-sqlplus emre/emre@orcl @covid19.sql (run this command from command prompt to run the script, also change the command as username/password@orcl @covid19.sql)
 
--exit (exit cmd)\
+-exit (exit cmd)
 
 The tables and triggers are created once the script gets executed.
 
