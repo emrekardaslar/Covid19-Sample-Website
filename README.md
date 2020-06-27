@@ -1,9 +1,14 @@
 # Covid19-Sample-Website
 Website for entering/editing daily covid data. 
-Backend: Java Servlets 
-Database: Oracle DBMS 
-Frontend: HTML, CSS, JSP, JST
 
+Backend: Java Servlets.
+Database: Oracle DBMS.
+Frontend: HTML, CSS, JSP, JSTL.
+
+Java codes are in src file 
+Static files are in WebContent
+The JSPs are in WebContent/WEB-INF
+Needed packages are in WebContent/WEB-INF/lib
 
 Follow the steps below to setup the web application.
 
