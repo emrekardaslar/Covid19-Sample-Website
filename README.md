@@ -1,7 +1,7 @@
 # Covid19-Sample-Website
 Website for entering/editing daily covid data. 
 
-Backend: Java Servlets.
+Backend: Java Servlets.\
 Database: Oracle DBMS.
 Frontend: HTML, CSS, JSP, JSTL.
 
