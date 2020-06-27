@@ -3,24 +3,25 @@ Website for entering/editing daily covid data.
 
 Backend: Java Servlets.\
 Database: Oracle DBMS.\
-Frontend: HTML, CSS, JSP, JSTL.\
+Frontend: HTML, CSS, JSP, JSTL.
 
-Java codes are in src file \
-Static files are in WebContent\
-The JSPs are in WebContent/WEB-INF\
-Needed packages are in WebContent/WEB-INF/lib\
 
-Follow the steps below to setup the web application.\
+Java codes are in src file 
+Static files are in WebContent
+The JSPs are in WebContent/WEB-INF
+Needed packages are in WebContent/WEB-INF/lib
+
+Follow the steps below to setup the web application.
 
 Install Eclipse EE 2020-03 (Community Edition cannot open a Dynamic Web Project)\
 Install Apache Tomcat Server 8.5\
 Install Oracle RDBMS 19c\
 
-After installing Oracle Database, look at the directory below:\
-<ORACLE-HOME>\network\admin\tnsnames.ora\
+After installing Oracle Database, look at the directory below:
+<ORACLE-HOME>\network\admin\tnsnames.ora
 
-Check the description that defines your address, port, service name etc. The web application uses the description below. \
-You can modify the code according to your connection description later. \
+Check the description that defines your address, port, service name etc. The web application uses the description below. 
+You can modify the code according to your connection description later. 
 
 ORCL =
   (DESCRIPTION =
