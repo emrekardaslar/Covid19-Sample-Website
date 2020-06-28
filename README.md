@@ -11,6 +11,8 @@ Static files are in WebContent
 The JSPs are in WebContent/WEB-INF
 Needed packages are in WebContent/WEB-INF/lib
 
+# Installation
+
 Follow the steps below to setup the web application.
 
 Install Eclipse EE 2020-03 (Community Edition cannot open a Dynamic Web Project)
